@@ -151,7 +151,8 @@ body {
     align-items: center;
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     position: relative;
-    overflow: hidden;
+    opacity: 1;
+    transform: none;
 }
 
 .hero::before {
@@ -643,10 +644,12 @@ body {
     padding: 100px 0;
     background: var(--bg-secondary);
 }
-
-.faq-list {
-    max-width: 800px;
+section {
+    padding: 100px 20px;
+    max-width: 1400px;
     margin: 0 auto;
+    opacity: 1;
+    transform: none;
 }
 
 .faq-item {
@@ -931,8 +934,8 @@ body {
 
 /* Scroll animations */
 .fade-in-scroll {
-    opacity: 0;
-    transform: translateY(30px);
+    opacity: 1;
+    transform: translateY(0);
     transition: all 0.6s ease-out;
 }
 

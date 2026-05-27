@@ -60,14 +60,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
 
     // Observe all elements with fade-in-scroll class
-    document.querySelectorAll('.fade-in-scroll').forEach(el => {
+    /*document.querySelectorAll('.fade-in-scroll').forEach(el => {
         observer.observe(el);
     });
 
     // Add fade-in-scroll class to sections
     document.querySelectorAll('section').forEach(section => {
         section.classList.add('fade-in-scroll');
-    });
+    });*/
 
     // Counter Animation for Trust Stats
     function animateCounter(element, target, duration = 2000) {
