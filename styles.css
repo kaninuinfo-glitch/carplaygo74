@@ -431,7 +431,7 @@ body {
     top: 20px;
     right: 20px;
     font-size: 24px;
-    animation: pulse 2s infinite;
+    animation: none;
 }
 
 @keyframes pulse {
@@ -1091,32 +1091,26 @@ section {
     }
 }
 
-/* Animations */
+/* Animations - disabled for stability */
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    from { opacity: 1; }
+    to { opacity: 1; }
 }
 
 .fade-in {
-    animation: fadeInUp 0.6s ease-out;
+    animation: none;
 }
 
 /* Scroll animations */
 .fade-in-scroll {
     opacity: 1;
-    transform: translateY(0);
-    transition: all 0.6s ease-out;
+    transform: none;
+    transition: none;
 }
 
 .fade-in-scroll.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: none;
 }
 
 /* Loading animation */
