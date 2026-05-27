@@ -13,6 +13,8 @@
     --primary-white: #ffffff;
     --accent-gold: #FFD700;
     --accent-green: #10B981;
+    --accent-green-dark: #059669;
+    --accent-green-light: #34D399;
     --text-primary: #1a1a1a;
     --text-secondary: #666666;
     --text-light: #999999;
@@ -72,6 +74,21 @@ body {
     color: var(--primary-black);
     margin: 0;
     letter-spacing: -0.5px;
+}
+
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-link svg {
+    display: block;
+    height: 40px;
+    width: auto;
+}
+
+.footer-logo svg {
+    height: 40px;
 }
 
 .nav-menu {
