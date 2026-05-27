@@ -1,59 +1,8 @@
 {
   "name": "carplaygo-website",
   "version": "1.0.0",
-  "description": "Site e-commerce premium pour CARPLAYGO - Dongles CarPlay & Android Auto sans fil",
-  "main": "index.html",
+  "description": "Site e-commerce premium CARPLAYGO",
   "scripts": {
-    "start": "python3 -m http.server 8000",
-    "build": "echo 'Build process completed'",
-    "deploy": "echo 'Deployment process initiated'",
-    "lint": "echo 'Linting completed'",
-    "format": "echo 'Formatting completed'"
-  },
-  "keywords": [
-    "carplay",
-    "android-auto",
-    "ecommerce",
-    "premium",
-    "dongle",
-    "wireless",
-    "automotive"
-  ],
-  "author": "CARPLAYGO Team",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carplaygo/carplaygo-website.git"
-  },
-  "homepage": "https://carplaygo.fr",
-  "bugs": {
-    "url": "https://github.com/carplaygo/carplaygo-website/issues"
-  },
-  "devDependencies": {
-    "prettier": "^3.0.0",
-    "eslint": "^8.0.0"
-  },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  },
-  "build": {
-    "base": "/",
-    "publish": "/",
-    "commands": {
-      "build": "echo 'Build complete'",
-      "deploy": "echo 'Deploy complete'"
-    },
-    "environment": {
-      "NODE_ENV": "production"
-    }
-  },
-  "cloudflare": {
-    "pages": {
-      "github": {
-        "repository": "carplaygo/carplaygo-website",
-        "branch": "main"
-      }
-    }
+    "start": "npx serve ."
   }
 }
