@@ -81,14 +81,14 @@ body {
     text-decoration: none;
 }
 
-.logo-link svg {
+.logo-link img {
     display: block;
-    height: 40px;
+    height: 32px;
     width: auto;
 }
 
-.footer-logo svg {
-    height: 40px;
+.footer-logo img {
+    height: 32px;
 }
 
 .nav-menu {
