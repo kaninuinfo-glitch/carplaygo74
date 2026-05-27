@@ -1,0 +1,11 @@
+{
+  "buildCommand": "echo 'Build complete'",
+  "framework": null,
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "destination": "/index.html",
+      "source": "/(.*)"
+    }
+  ]
+}
