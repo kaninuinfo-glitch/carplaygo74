@@ -500,7 +500,7 @@ body {
 }
 
 .product-card.featured {
-    border: 2px solid var(--accent-gold);
+    border: 2px solid var(--accent-green);
     transform: scale(1.05);
 }
 
@@ -508,8 +508,8 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    background: var(--gradient-gold);
-    color: var(--primary-black);
+    background: var(--accent-green);
+    color: white;
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 12px;
