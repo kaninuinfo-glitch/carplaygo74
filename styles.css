@@ -857,12 +857,12 @@ section {
 }
 
 .cta .btn-primary {
-    background: var(--accent-gold);
-    color: var(--primary-black);
+    background: var(--accent-green);
+    color: var(--primary-white);
 }
 
 .cta .btn-primary:hover {
-    background: #FFA500;
+    background: var(--accent-green-light);
 }
 
 .cta .btn-secondary {
@@ -873,12 +873,17 @@ section {
 
 .cta .btn-secondary:hover {
     background: var(--primary-white);
+    color: var(--accent-green-dark);
+}
+
+.cta .btn-secondary:hover {
+    background: var(--primary-white);
     color: var(--primary-black);
 }
 
 /* Footer */
 .footer {
-    background: var(--primary-black);
+    background: var(--accent-green-dark);
     color: var(--primary-white);
     padding: 60px 0 30px;
 }
