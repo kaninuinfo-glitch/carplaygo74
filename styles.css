@@ -164,13 +164,15 @@ body {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    min-height: auto;
+    padding: 60px 0;
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     position: relative;
     opacity: 1;
     transform: none;
+    overflow: visible;
 }
 
 .hero::before {
@@ -190,7 +192,7 @@ body {
     padding: 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 80px;
+    gap: 60px;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -316,10 +318,13 @@ body {
     color: white;
 }
 
-/* Trust Bar */
+/* Trust Bar - CORRIGÉ */
 .trust-bar {
     background: var(--primary-black);
-    padding: 16px 0;
+    padding: 20px 0;
+    position: relative;
+    z-index: 10;
+    clear: both;
 }
 
 .trust-bar-content {
@@ -328,8 +333,10 @@ body {
     padding: 0 20px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: wrap;
+    min-height: 30px;
+    align-items: center;
 }
 
 .trust-bar-content span {
@@ -339,10 +346,12 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    white-space: nowrap;
 }
 
 .trust-bar-content i {
     color: var(--accent-green);
+    flex-shrink: 0;
 }
 
 .hero-buttons {
