@@ -164,15 +164,13 @@ body {
 
 /* Hero Section */
 .hero {
-    min-height: auto;
-    padding: 60px 0;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     position: relative;
-    opacity: 1;
-    transform: none;
-    overflow: visible;
+    overflow: hidden;
+    padding: 80px 0 40px;
 }
 
 .hero::before {
